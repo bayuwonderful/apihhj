@@ -12,8 +12,8 @@ COPY package.json .
 RUN npm install -g npm@latest
 RUN npm install 
 RUN npm instal pm2 -g
-RUN npm install ytdl-core@latest
-RUN npm install yt-search@latest
+RUN npm install ytdl-core
+RUN npm install yt-search
 COPY . .
 EXPOSE 5000
 
